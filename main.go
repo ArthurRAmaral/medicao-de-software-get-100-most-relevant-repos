@@ -64,6 +64,6 @@ func main() {
 	repositoryNodes := dat.Data.Search.Nodes
 
 	for item := range repositoryNodes {
-		fmt.Println(repositoryNodes[item])
+		fmt.Println(repositoryNodes[item].Url)
 	}
 }
